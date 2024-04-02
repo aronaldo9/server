@@ -1,0 +1,5 @@
+Bucket Name: joyeriarosant-strapi
+Política de AWS: S3BucketAccessStrapiRosant
+Usuario: strapi-joyeriarosant
+Clave de acceso: AKIATCKAPPCDTIPQJUR2
+Clave de acceso secreta: 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
