@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product",
     "pluralName": "products",
-    "displayName": "Product"
+    "displayName": "Product",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,7 +23,7 @@
     },
     "price": {
       "type": "decimal",
-      "required": true
+      "required": false
     },
     "discount": {
       "type": "integer"
@@ -37,19 +38,20 @@
       "required": true
     },
     "img": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
-    },
-    "gallery": {
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
+      ]
+    },
+    "gallery": {
       "type": "media",
-      "multiple": true
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "brand": {
       "type": "string",
