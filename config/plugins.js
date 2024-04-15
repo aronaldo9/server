@@ -6,8 +6,8 @@ module.exports = ({ env }) => ({
         baseUrl: env("CDN_URL"),
         rootPath: env("CDN_ROOT_PATH"),
         s3Options: {
-          accessKeyId: "AKIATCKAPPCDTIPQJUR2",
-          secretAccessKey: "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",
+          accessKeyId: env("AWS_ACCESS_KEY_ID"),
+          secretAccessKey: env("AWS_ACCESS_SECRET"),
           region: "eu-west-1",
           params: {
             ACL: env("AWS_ACL", "public-read"),
