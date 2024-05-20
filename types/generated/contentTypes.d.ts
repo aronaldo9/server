@@ -929,6 +929,7 @@ export interface ApiProductProduct extends Schema.CollectionType {
     stock: Attribute.Integer & Attribute.Required;
     size: Attribute.Integer;
     availability: Attribute.Boolean & Attribute.Required;
+    wallpaper: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

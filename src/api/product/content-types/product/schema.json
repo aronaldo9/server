@@ -67,6 +67,13 @@
     "availability": {
       "type": "boolean",
       "required": true
+    },
+    "wallpaper": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
