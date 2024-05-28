@@ -61,19 +61,32 @@
       "type": "integer",
       "required": true
     },
-    "size": {
-      "type": "integer"
-    },
     "availability": {
       "type": "boolean",
       "required": true
     },
     "wallpaper": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "movement": {
+      "type": "string"
+    },
+    "caliber": {
+      "type": "string"
+    },
+    "waterResistant": {
+      "type": "string"
+    },
+    "glass": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
     }
   }
 }

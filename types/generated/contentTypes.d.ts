@@ -927,9 +927,13 @@ export interface ApiProductProduct extends Schema.CollectionType {
     gallery: Attribute.Media;
     brand: Attribute.String & Attribute.Required;
     stock: Attribute.Integer & Attribute.Required;
-    size: Attribute.Integer;
     availability: Attribute.Boolean & Attribute.Required;
     wallpaper: Attribute.Media;
+    movement: Attribute.String;
+    caliber: Attribute.String;
+    waterResistant: Attribute.String;
+    glass: Attribute.String;
+    size: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
