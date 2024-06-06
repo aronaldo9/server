@@ -934,6 +934,7 @@ export interface ApiProductProduct extends Schema.CollectionType {
     waterResistant: Attribute.String;
     glass: Attribute.String;
     size: Attribute.String;
+    gender: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

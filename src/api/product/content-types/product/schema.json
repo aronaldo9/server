@@ -87,6 +87,9 @@
     },
     "size": {
       "type": "string"
+    },
+    "gender": {
+      "type": "string"
     }
   }
 }
